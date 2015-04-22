@@ -622,6 +622,92 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <text x="0" y="3.038" size="0.3556" layer="25">&gt;NAME</text>
 <text x="0" y="0" size="0.3556" layer="27">&gt;VALUE</text>
 </package>
+<package name="ARDUINO_REF">
+<description>Arduino Shield with reference information</description>
+<wire x1="1.27" y1="0" x2="64.77" y2="0" width="0.127" layer="20"/>
+<wire x1="66.04" y1="1.27" x2="66.04" y2="2.54" width="0.127" layer="20"/>
+<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0.127" layer="20"/>
+<wire x1="68.58" y1="5.08" x2="68.58" y2="37.846" width="0.127" layer="20"/>
+<wire x1="68.58" y1="37.846" x2="66.04" y2="40.386" width="0.127" layer="20"/>
+<wire x1="66.04" y1="40.386" x2="66.04" y2="51.816" width="0.127" layer="20"/>
+<wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0.127" layer="20"/>
+<wire x1="64.516" y1="53.34" x2="1.27" y2="53.34" width="0.127" layer="20"/>
+<circle x="15.24" y="50.8" radius="1.796" width="0.127" layer="51"/>
+<circle x="13.97" y="2.54" radius="1.796" width="0.127" layer="51"/>
+<circle x="66.04" y="35.56" radius="1.796" width="0.127" layer="51"/>
+<circle x="66.04" y="7.62" radius="1.796" width="0.127" layer="51"/>
+<pad name="D4" x="53.34" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="A0" x="50.8" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D3" x="55.88" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D2" x="58.42" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D1" x="60.96" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D0" x="63.5" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D5" x="50.8" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D6" x="48.26" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D7" x="45.72" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D8" x="41.656" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D9" x="39.116" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D10" x="36.576" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D11" x="34.036" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D12" x="31.496" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="D13" x="28.956" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="GND@1" x="26.416" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="AREF" x="23.876" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="A1" x="53.34" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="A2" x="55.88" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="A3" x="58.42" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="A4" x="60.96" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="A5" x="63.5" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="VIN" x="45.72" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="GND@2" x="43.18" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="GND@3" x="40.64" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="5V" x="38.1" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="3V" x="35.56" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="RESET" x="33.02" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="SDA" x="21.336" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="SCL" x="18.796" y="50.8" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="IOREF" x="30.48" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<pad name="RESERVED" x="27.94" y="2.54" drill="1" diameter="1.27" shape="long" rot="R90"/>
+<wire x1="0" y1="52.07" x2="0" y2="1.27" width="0.127" layer="20"/>
+<wire x1="0" y1="52.07" x2="1.27" y2="53.34" width="0.127" layer="20" curve="-90"/>
+<wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.127" layer="20" curve="-90"/>
+<wire x1="66.04" y1="1.27" x2="64.77" y2="0" width="0.127" layer="20" curve="-90"/>
+<text x="52.07" y="7.62" size="1.27" layer="21">ANALOG IN</text>
+<text x="39.37" y="43.815" size="1.27" layer="21">DIGITAL I/O</text>
+<text x="64.135" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">RX/0</text>
+<text x="31.115" y="4.445" size="1.27" layer="21" rot="R90">IOREF</text>
+<text x="33.655" y="4.445" size="1.27" layer="21" rot="R90">RST</text>
+<text x="36.195" y="4.445" size="1.27" layer="21" rot="R90">3V3</text>
+<text x="38.735" y="4.445" size="1.27" layer="21" rot="R90">5V</text>
+<text x="41.275" y="4.445" size="1.27" layer="21" rot="R90">GND</text>
+<text x="43.815" y="4.445" size="1.27" layer="21" rot="R90">GND</text>
+<text x="46.355" y="4.445" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="51.435" y="4.445" size="1.27" layer="21" rot="R90">A0</text>
+<text x="53.975" y="4.445" size="1.27" layer="21" rot="R90">A1</text>
+<text x="56.515" y="4.445" size="1.27" layer="21" rot="R90">A2</text>
+<text x="59.055" y="4.445" size="1.27" layer="21" rot="R90">A3</text>
+<text x="61.595" y="4.445" size="1.27" layer="21" rot="R90">A4</text>
+<text x="64.135" y="4.445" size="1.27" layer="21" rot="R90">A5</text>
+<text x="61.595" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">TX/1</text>
+<text x="59.055" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">2</text>
+<text x="56.515" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">#3</text>
+<text x="53.975" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">4</text>
+<text x="51.435" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">#5</text>
+<text x="48.895" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">#6</text>
+<text x="46.355" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">7</text>
+<text x="42.291" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">8</text>
+<text x="39.751" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">#9</text>
+<text x="37.211" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">#10</text>
+<text x="34.671" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">#11</text>
+<text x="32.131" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">12</text>
+<text x="29.591" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">#13</text>
+<text x="27.051" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">GND</text>
+<text x="24.511" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">AREF</text>
+<text x="21.971" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">SDA</text>
+<text x="19.431" y="48.895" size="1.27" layer="21" rot="R90" align="bottom-right">SCL</text>
+<wire x1="38.735" y1="44.45" x2="28.321" y2="44.45" width="0.1016" layer="21"/>
+<wire x1="51.435" y1="44.45" x2="59.055" y2="44.45" width="0.1016" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A2610">
@@ -1023,6 +1109,45 @@ Standard adjustable SMD voltage regulator.</description>
 </gates>
 <devices>
 <device name="" package="ARDUINO">
+<connects>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4/SDA" pad="A4"/>
+<connect gate="G$1" pin="A5/SCL" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="D0" pad="D0"/>
+<connect gate="G$1" pin="D1" pad="D1"/>
+<connect gate="G$1" pin="D10" pad="D10"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="D8" pad="D8"/>
+<connect gate="G$1" pin="D9" pad="D9"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="IOREF" pad="IOREF"/>
+<connect gate="G$1" pin="RESERVED" pad="RESERVED"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="REF" package="ARDUINO_REF">
 <connects>
 <connect gate="G$1" pin="3V" pad="3V"/>
 <connect gate="G$1" pin="5V" pad="5V"/>
