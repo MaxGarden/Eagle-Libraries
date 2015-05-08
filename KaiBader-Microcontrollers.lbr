@@ -1728,7 +1728,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA32U4">
+<deviceset name="ATMEGA32U4" prefix="IC">
 <description>Atmel &lt;b&gt;ATMega32U4&lt;/b&gt; Microcontroller</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA32U4" x="0" y="0"/>
@@ -2126,7 +2126,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA16U2">
+<deviceset name="ATMEGA16U2" prefix="IC">
 <description>Atmel &lt;b&gt;ATMega16U2&lt;/b&gt; Microcontroller</description>
 <gates>
 <gate name="G$1" symbol="ATMEL_MEGA8U2" x="0" y="0"/>
@@ -2292,7 +2292,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY26">
+<deviceset name="ATTINY26" prefix="IC">
 <description>Atmel &lt;b&gt;ATtiny26&lt;/b&gt; Microcontroller</description>
 <gates>
 <gate name="G$1" symbol="ATTINY26" x="0" y="0"/>
@@ -2327,7 +2327,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY84">
+<deviceset name="ATTINY84" prefix="IC">
 <description>Atmel &lt;b&gt;ATtiny84&lt;/b&gt; Microcontroller&lt;br /&gt;
 8-bit AVR Microcontroller, 8KB Flash&lt;br /&gt;
 Pin-compatible to ATtiny24, ATtiny44</description>
@@ -2383,7 +2383,7 @@ Pin-compatible to ATtiny25, ATtiny45</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY2313">
+<deviceset name="ATTINY2313" prefix="IC">
 <description>Atmel &lt;b&gt;ATtiny2313&lt;/b&gt; Microcontroller&lt;br /&gt;
 8-bit AVR Microcontroller, 2 KB Flash&lt;br /&gt;
 Pin-compatible to ATtiny4313</description>

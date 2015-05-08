@@ -1218,7 +1218,7 @@ Standard 2.1 mm * 5.5 mm barrel jack for power (e.g. Arduino).</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A2610">
+<deviceset name="A2610" prefix="IC">
 <description>Agilent ADNS-2610 Optical Mouse Sensor</description>
 <gates>
 <gate name="A2610" symbol="A2610" x="0" y="0"/>
@@ -1347,7 +1347,7 @@ Standard adjustable SMD voltage regulator.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR-ISP">
+<deviceset name="AVR-ISP" prefix="JP">
 <description>&lt;b&gt;Atmel AVR ISP&lt;/b&gt;&lt;p&gt;
 AVR Microcontroller In-System Programmer pinout</description>
 <gates>
@@ -1382,7 +1382,7 @@ AVR Microcontroller In-System Programmer pinout</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-MICRO-SD">
+<deviceset name="CON-MICRO-SD" prefix="CN">
 <description>Micro Secure Digital (Micro-SD) Card Connector</description>
 <gates>
 <gate name="G$1" symbol="CON-MICRO-SD" x="0" y="0"/>
@@ -1409,7 +1409,7 @@ AVR Microcontroller In-System Programmer pinout</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON_MICROSD">
+<deviceset name="CON_MICROSD" prefix="CN">
 <gates>
 <gate name="CON" symbol="CON_MICROSD" x="0" y="0"/>
 </gates>
@@ -1431,7 +1431,7 @@ AVR Microcontroller In-System Programmer pinout</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX662A">
+<deviceset name="MAX662A" prefix="IC">
 <description>&lt;b&gt;MAX662A / ST662A&lt;/b&gt;&lt;br/&gt;
 MAXIM +12V, 30mA Flash Memory Programming Supply</description>
 <gates>
@@ -1455,7 +1455,7 @@ MAXIM +12V, 30mA Flash Memory Programming Supply</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OLED_I2C">
+<deviceset name="OLED_I2C" prefix="U">
 <gates>
 <gate name="OLED" symbol="OLED_I2C" x="0" y="0"/>
 </gates>
@@ -1473,7 +1473,7 @@ MAXIM +12V, 30mA Flash Memory Programming Supply</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X30-2.54X1.27">
+<deviceset name="PINHD-2X30-2.54X1.27" prefix="JP">
 <gates>
 <gate name="A" symbol="PINHD-2X30-2.54X1.27" x="0" y="0"/>
 </gates>
@@ -1547,7 +1547,7 @@ MAXIM +12V, 30mA Flash Memory Programming Supply</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RFM12">
+<deviceset name="RFM12" prefix="U">
 <description>The &lt;b&gt;RFM12&lt;/b&gt; is an ISM band FSK transceiver module.&lt;br/&gt;It operates in the 434 MHz band and fully complies with FCC and ETSI regulations.</description>
 <gates>
 <gate name="U$1" symbol="RFM12" x="0" y="-5.08"/>
@@ -1616,7 +1616,7 @@ MAXIM +12V, 30mA Flash Memory Programming Supply</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TAKT_SWITCH_SKQUCA">
+<deviceset name="TAKT_SWITCH_SKQUCA" prefix="SW">
 <description>&lt;b&gt;ALPS SKQUCAA010&lt;/b&gt;&lt;br/&gt;
 SKQU Multi Control Devices TACT Switch&lt;br/&gt;
 10 mm 4-directional with Center Push (SMD &amp; Snap-in) Type&lt;br/&gt;&lt;br/&gt;
@@ -1675,7 +1675,7 @@ CC-BY-SA 4.0 Kai Christian Bader</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWERJACK" prefix="J">
+<deviceset name="POWERJACK" prefix="CN">
 <description>&lt;b&gt;Power Jack&lt;/b&gt;&lt;br /&gt;
 Standard 2.1 mm * 5.5 mm barrel jack for power (e.g. Arduino).</description>
 <gates>
@@ -1694,7 +1694,7 @@ Standard 2.1 mm * 5.5 mm barrel jack for power (e.g. Arduino).</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB-MICRO" prefix="U" uservalue="yes">
+<deviceset name="USB-MICRO" prefix="CN" uservalue="yes">
 <description>&lt;b&gt;Micro USB&lt;/b&gt; connector.</description>
 <gates>
 <gate name="G$1" symbol="USB-MICRO" x="0" y="0"/>
@@ -1714,7 +1714,7 @@ Standard 2.1 mm * 5.5 mm barrel jack for power (e.g. Arduino).</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RFM26W">
+<deviceset name="RFM26W" prefix="U">
 <description>&lt;b&gt;RFM26W&lt;/b&gt; ISM Transceiver module.</description>
 <gates>
 <gate name="G$1" symbol="RFM26W" x="0" y="0"/>
