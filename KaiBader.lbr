@@ -729,6 +729,31 @@ Standard 2.1 mm * 5.5 mm barrel jack for power (e.g. Arduino).</description>
 <text x="5.08" y="6.35" size="1.27" layer="21">&gt;NAME</text>
 <text x="5.08" y="3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="POWERJACK_SLOT">
+<description>&lt;b&gt;Power Jack&lt;/b&gt;&lt;br /&gt;
+Standard 2.1 mm * 5.5 mm barrel jack for power (e.g. Arduino).&lt;br/&gt;
+Caution: This package might not be accepted by some PCB manufacturers.</description>
+<wire x1="4.5" y1="13.7" x2="2.4" y2="13.7" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="3" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="0.1" x2="4.5" y2="3" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="0.1" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="3" x2="4.5" y2="8.3" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="13.7" x2="4.5" y2="13" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="3" x2="-4.5" y2="13.7" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="13.7" x2="-2.4" y2="13.7" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="3" x2="4.5" y2="3" width="0.2032" layer="21"/>
+<pad name="PWR" x="0" y="13.7" drill="1.3" diameter="4" shape="octagon"/>
+<pad name="GND" x="0" y="7.7" drill="1.3" diameter="4" shape="octagon"/>
+<pad name="GNDBREAK" x="4.7" y="10.7" drill="1.3" diameter="4" shape="octagon" rot="R90"/>
+<text x="5.08" y="6.35" size="1.27" layer="21">&gt;NAME</text>
+<text x="5.08" y="3.81" size="1.27" layer="21">&gt;VALUE</text>
+<pad name="PWR_NC2" x="0.8" y="13.7" drill="1.3"/>
+<pad name="PWR_NC1" x="-0.8" y="13.7" drill="1.3"/>
+<pad name="GND_NC1" x="-0.8" y="7.7" drill="1.3"/>
+<pad name="GND_NC2" x="0.8" y="7.7" drill="1.3"/>
+<pad name="GNDBREAK_NC1" x="4.7" y="9.9" drill="1.3"/>
+<pad name="GNDBREAK_NC2" x="4.7" y="11.5" drill="1.3"/>
+</package>
 <package name="USB-MICRO">
 <description>&lt;b&gt;Micro USB&lt;/b&gt; connector.</description>
 <smd name="D+" x="2.85" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
@@ -1757,6 +1782,16 @@ Standard 2.1 mm * 5.5 mm barrel jack for power (e.g. Arduino).</description>
 </gates>
 <devices>
 <device name="" package="POWERJACK">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GNDBREAK" pad="GNDBREAK"/>
+<connect gate="G$1" pin="PWR" pad="PWR"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SLOT" package="POWERJACK_SLOT">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GNDBREAK" pad="GNDBREAK"/>
